@@ -3,10 +3,55 @@
 <html>
 	<head>
 	<meta name="author" content="Ushal Imami Fadhila">
+	<style>
+			.button{
+			background-color:blue;
+			padding: 15px;
+			font-weight:normal;
+			border-radius: 5px;
+			border-color:pink;
+			}
+			.button:hover{
+			background-color:white;
+			padding: 15px;
+			font-weight:normal;
+			border-radius: 5px;
+			border-color:pink;
+			}
+			table{
+				background-color:pink;
+				opocity="90%";
+				}
+			body{
+				background-color:pink;
+				background-image:url("https://i.pinimg.com/474x/33/a3/3d/33a33d9077a28500e03558aedaf9619b.jpg");
+				background-size: cover;
+				}
+			h1{
+			color:pink;
+			}
+			.text-biru{
+				color:blue;
+			}
+			
+			select, textarea, input[type="text"], [type="email"], [type="number"], [type="date"],[type="file"]{
+			 border-radius: 10px;
+			 background-color: black;
+			 color:white;
+			 padding: 10px;
+			 width:90%;
+			 border-color:pink
+			}
+			*{
+			color:purple;
+			font-family:Arial;
+			
+		</style>
 	<title>form pada html</title>
 	</head>
 	<body>
 	<CENTER><h1>FORM HTML</H1></CENTER>
+	<center><h1 class="text-biru">Selamat Datang</h1></center>
 		<form method=""action="">
 		<table width="100%">
 		<tr>
@@ -85,7 +130,7 @@
 			</tr>
 			<tr>
 				<td><label for="label">Pekerjaan Ayah</label></td>
-				<td><input type="Pekerjaan" name="Pekerjaan" id="Pekerjaan"></td>
+				<td><input type="text" name="Pekerjaan" id="Pekerjaan"></td>
 			</tr>
 			<tr>
 				<td><label for="alamat">Alamat Ayah</label></td>
@@ -102,7 +147,7 @@
 			</tr>
 			<tr>
 				<td><label for="label">Pekerjaan Ibu</label></td>
-				<td><input type="Pekerjaan" name="Pekerjaan" id="Pekerjaan"></td>
+				<td><input type="text" name="Pekerjaan" id="Pekerjaan"></td>
 			</tr>
 			<tr>
 				<td><label for="alamat">Alamat Ibu</label></td>
@@ -114,8 +159,8 @@
 			</tr>
 			<tr>
 			<td colspan="10" align="left">
-			<input type="reset" value="Simpan">
-			<input type="reset" value="reset">
+			<input type="reset" value="Simpan" class="button">
+			<input type="reset" value="reset" class ="button"	>
 			</td>
 			
 			
